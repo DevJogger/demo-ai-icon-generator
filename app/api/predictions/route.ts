@@ -28,7 +28,7 @@ export async function POST(request: NextRequest) {
   const options = {
     model: 'black-forest-labs/flux-schnell',
     input: {
-      prompt: `one icon, ${prompt}, ${style ? `(${style} style)` : ''} ${colors?.length ? `theme color ${colors.join(', ')}` : ''}, minimalist design, single clear subject in the center, sharp lines, high contrast, simple shapes, no text, pure light color background`,
+      prompt: `one vector graphic, ${prompt}, ${style ? `(${style} style)` : ''} ${colors?.length ? `theme color ${colors.join(', ')}` : ''}, minimalist design, single clear subject in the center, sharp lines, high contrast, simple shapes, no text, pure light color background`,
       megapixels: '0.25',
       num_outputs: 4,
       aspect_ratio: '1:1',
