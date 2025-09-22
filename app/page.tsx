@@ -1,4 +1,5 @@
 import InputPanel from '@/components/input-panel/input-panel'
+import Gallery from '@/components/gallery'
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
         <h1 className='text-center text-2xl font-medium'>What icons do you want to create?</h1>
         <InputPanel />
       </section>
-      <section className='bg-muted mx-auto flex h-56 w-full max-w-3xl rounded-xl'></section>
+      <Gallery />
     </main>
   )
 }

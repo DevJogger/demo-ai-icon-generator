@@ -13,3 +13,7 @@ export function generateRandomHexColor(): string {
       .padStart(6, '0')
   )
 }
+
+export function sleep(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms))
+}
